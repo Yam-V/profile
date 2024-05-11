@@ -1,0 +1,131 @@
+.logo{
+    width: 30px;
+}
+
+.Profile{
+    height: 600px;
+    width: 100%;    
+    background-image: url(Images/dev1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.right{
+    margin: 5%;
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 13%;
+    width: 85%;
+}
+
+.left{
+    width: 50%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.Profile img{
+    height: 100%;
+    width: 100%;
+}
+
+  
+.logo:hover {
+      opacity: 0.7;
+}    
+
+.skillsection{
+    height: 25%;
+    background-image: url(Images/s3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skillImage img{
+    margin-left: 1%;
+    height: 70PX;
+    width: 70px;
+}
+.skillImage img:hover{
+   box-shadow:  10px 5px 5px rgb(25, 23, 23);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+    color: black;
+    
+  }
+  li:hover{
+    text-decoration-style: wavy;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    font-size:large;
+    color: white;
+    
+}
+
+
+.education{
+    background-image: url(Images/s3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    font-size:medium;
+    height: 22%;
+    
+}
+
+.careerJourney{
+    background-image: url(Images/s3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center; 
+    font-size:medium;
+}
+.social{
+    margin-left: 45%;
+}
+.social img{
+    margin-top: 1%;
+}
+footer{
+    height: 60PX;
+    background-color: black;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Vertical line styles */
+.vertical-line {
+    height: 250px;
+    border-left: 2px solid #333; 
+    margin: 0 20px; 
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+.content1 {
+    padding: 10px;
+    text-align: center;
+    margin-top: 13%;
+    font-size: x-large;
+}
