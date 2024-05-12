@@ -1,5 +1,6 @@
 .logo{
     width: 30px;
+    margin-top: 4%;
 }
 
 .Profile{
@@ -39,7 +40,7 @@
 
 .skillsection{
     height: 25%;
-    background-image: url(Images/s3.jpg);
+    background-image: url(Images/skills8.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -79,27 +80,29 @@ ul {
 
 
 .education{
-    background-image: url(Images/s3.jpg);
+    background-image: url(Images/book2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; 
     font-size:medium;
     height: 22%;
+    color: aliceblue;
     
 }
 
 .careerJourney{
-    background-image: url(Images/s3.jpg);
+    background-image: url(Images/career5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center; 
     font-size:medium;
+    color: black;
 }
 .social{
     margin-left: 45%;
 }
 .social img{
-    margin-top: 1%;
+    margin-top: 3%;
 }
 footer{
     height: 60PX;
@@ -110,6 +113,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: bold;
 }
 /* Vertical line styles */
 .vertical-line {
@@ -119,12 +123,12 @@ footer{
 }
 
 .content {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-size: x-large;
 }
 .content1 {
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     margin-top: 13%;
     font-size: x-large;
